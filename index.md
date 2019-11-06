@@ -33,7 +33,7 @@ Function is a block of code/functionality that can be executed with single state
 To call function in Python you have to use `<name_of_function>(<arguments>)`. Example of function is:
 ```
 print('Hello!')
-  ^  ^    ^   ^
+  ↑  ↑    ↑   ↑
   │  │    │   │
   └───────────────  Function name - print
      │    │   │
@@ -41,6 +41,7 @@ print('Hello!')
           │         we are calling it
           └───────  Arguments of a function, in this case string of characters to
                     print out on a screen
+
 ```
 
 ---
