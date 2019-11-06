@@ -36,6 +36,7 @@ print('Hello!')
   ^  ^    ^   ^
   |  |    |   |
   └---------------  Function name - print
+     |    |   |
      └--------┴---  Parenthesis executing function - () mean this is function and
           |         we are calling it
           └-------  Arguments of a function, in this case string of characters to
