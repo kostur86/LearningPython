@@ -60,3 +60,5 @@ In [3]: type([1, 2, 3])
 Out[3]: list
 
 ```
+
+2. Floating point
