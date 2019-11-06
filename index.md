@@ -35,10 +35,10 @@ To call function in Python you have to use `<name_of_function>(<arguments>)`. Ex
 print('Hello!')
   ^  ^    ^   ^
   |  |    |   |
-  +---------------  Function name - print
-     +--------+---  Parenthesis executing function - () mean this is function and
+  └---------------  Function name - print
+     └--------┴---  Parenthesis executing function - () mean this is function and
           |         we are calling it
-          +-------  Arguments of a function, in this case string of characters to
+          └-------  Arguments of a function, in this case string of characters to
                     print out on a screen
 ```
 
