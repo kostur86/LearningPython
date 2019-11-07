@@ -1,5 +1,10 @@
 # Learn Python
 
+
+<div class="vl" style="border-left: 6px solid green;">
+This is another test
+</div>
+
 ## Intro
 This is notebook from Python learning classes
 
