@@ -1,21 +1,5 @@
 # Learn Python
 
-.hi {
-  background: linear-gradient(225deg, lightpink, lightblue);
-  border: thick dotted purple;
-} 
-
-And then use it in your email something like this:
-
-Happy <span class="hi">Birthday</span> my friend!
-
-
-<span style="color:orange;">Word up</span>
-
-<div style="backgroundColor: green;">
-  Test
-</div>
-  
 ## Intro
 This is notebook from Python learning classes
 
