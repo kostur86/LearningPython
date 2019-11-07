@@ -330,3 +330,15 @@ Adapted for Markdown Here by Trey Harris 2016
 .tex .hljs-formula {
   background: #eee8d5;
 }
+
+
+
+/************************
+ *  Custom
+ ************************/
+
+
+.hi {
+  background: linear-gradient(225deg, lightpink, lightblue);
+  border: thick dotted purple;
+} 
