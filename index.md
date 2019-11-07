@@ -1,16 +1,21 @@
 # Learn Python
 
-```
-python
-In [1]: type(5)
-Out[1]: int
-```
+.hi {
+  background: linear-gradient(225deg, lightpink, lightblue);
+  border: thick dotted purple;
+} 
 
-<p style="backgroundColor: green;">
-This is another test
-</p>
+And then use it in your email something like this:
+
+Happy <span class="hi">Birthday</span> my friend!
 
 
+<span style="color:orange;">Word up</span>
+
+<div style="backgroundColor: green;">
+  Test
+</div>
+  
 ## Intro
 This is notebook from Python learning classes
 
@@ -26,6 +31,7 @@ In [1]: type(5)
 Out[1]: int
 ```
 ---
+
 #### On iPython output
 iPython is a Python interpreter with better capabilities. Easiest way to install it is to install Anaconda: https://www.anaconda.com/distribution/
 When you start it (for example with `ipython` on command line) it let you insert your commands (like command line):
