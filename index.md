@@ -1,9 +1,15 @@
 # Learn Python
 
+```
+python
+In [1]: type(5)
+Out[1]: int
+```
 
-<div class="vl" style="border-left: 6px solid green;">
+<p style="backgroundColor: green;">
 This is another test
-</div>
+</p>
+
 
 ## Intro
 This is notebook from Python learning classes
