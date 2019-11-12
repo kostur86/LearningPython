@@ -59,7 +59,47 @@ Out[2]: str
 
 In [3]: type([1, 2, 3])
 Out[3]: list
-
 ```
 
 2. Floating point
+
+Floating point is another basic numeric type in Python. Example of floating point numbers are: `0.5`, `12.095`, `1000000.1`, `-45.5`.
+Type of floating point is `float`:
+```python
+In [1]: type(0.1)
+Out[1]: float
+```
+To distinguish between integer and float you can add `.0` (or just `.`) after integer number:
+```python
+In [1]: type(5)
+Out[1]: int
+
+In [2]: type(5.0)
+Out[2]: float
+
+In [3]: type(5.)
+Out[3]: float
+
+In [4]: 5.0 == 5
+Out[4]: True
+```
+
+---
+#### On comparation operator
+Single equality sign in Python is used to assign value to variable (you will learn about this later!); to compare to values you need to use double equality sign - `==`. This operation returns `True` or `False` depend if values are equal (actually it returns `bool` type, but you will learn about it in a second):
+```python
+In [1]: 1 == 1
+Out[1]: True
+
+In [2]: 1 == 2
+Out[2]: False
+
+In [3]: "Hello" == "Hello"
+Out[3]: True
+
+In [4]: "Hello" == "Bye!"
+Out[4]: False
+
+```
+
+3. String of characters
