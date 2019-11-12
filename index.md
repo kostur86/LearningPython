@@ -6,7 +6,7 @@ This is notebook from Python learning classes
 ## Lesson 1 - Python types
 
 There are 4 basic types in Python
-1. Integer
+### Integer
 
 Integer is a basic numeric type in Python. Example of integer are: `1`, `5`, `12980`, `-45`.
 Type of integer is `int`:
@@ -61,7 +61,7 @@ In [3]: type([1, 2, 3])
 Out[3]: list
 ```
 
-2. Floating point
+### Floating point
 
 Floating point is another basic numeric type in Python. Example of floating point numbers are: `0.5`, `12.095`, `1000000.1`, `-45.5`.
 Type of floating point is `float`:
@@ -102,4 +102,65 @@ Out[4]: False
 
 ```
 
-3. String of characters
+### String of characters
+String of characters or simply string is a type of a text. To get that type you have to surround text with quotation: single `'` or double `"`. To have string over multiple lines you have to start it with three quotation sign and finish it also with three. Type of string is `str`:
+
+```python
+In [1]: "Hello!"
+Out[1]: 'Hello!'
+
+In [2]: '''
+   ...: Hi, my name is Mat.
+   ...: What is your name?
+   ...: '''
+Out[2]: '\nHi, my name is Mat.\nWhat is your name?\n'
+
+In [3]: type("Mateusz")
+Out[3]: str
+
+In [4]: type("56")
+Out[4]: str
+```
+
+To distinguish between string and integer or float you need to surround number with quotes:
+```python
+In [1]: type(42)
+Out[1]: int
+
+In [2]: type("42")
+Out[2]: str
+
+In [3]: 42 == "42"
+Out[3]: False
+
+In [4]: type(0.0)
+Out[4]: float
+
+In [5]: type("0.0")
+Out[5]: str
+
+In [6]: 0.0 == "0.0"
+Out[6]: False
+```
+
+#### On special characters
+In string backslash mean that next character is special character (that controll display and may be not displayed). The most common character is `\n` - new line which create new line when displaying string:
+```python
+In [1]: "First line\nSecond line"
+Out[1]: 'First line\nSecond line'
+
+In [2]: print("First line\nSecond line")
+First line
+Second line
+
+In [3]: print("Multiple\n\nnew\nliens\n\n\n!")
+Multiple
+
+new
+liens
+
+
+!
+```
+
+#### On print function
