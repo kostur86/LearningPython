@@ -161,8 +161,30 @@ liens
 ```
 
 #### On print function
+As you could see so far by pressing enter you can print output of a statement on a screen, but this is not a case outside of Python shell (like iPython, or when you type `python` in console). That's why function `print` exists. Basic usage is to pass single argument that will be print out on a screen:
+```python
+In [1]: print(5)
+5
 
+In [2]: print(-123.89)
+-123.89
 
-prev | [index](index.md) | [next](lesson_002.md)
+In [3]: print("This is also single argument")
+This is also single argument
+```
+Output of an expression or function is, in most cases, also single argument, so we can use so we can pass it to another function by embedding one inside the other.
+```python
+print(type(4 + 2.1))
+# ↑     ↑    ↑
+# │     │    │
+# │     │    └─────────────── python will first execute the most embedded parentheses (parentheses have highest priority
+# │     │                     you will learn about that on next lesson)
+# │     │                     4 + 2.1 is 6.1
+# │     └──────────────────── what is left is - print(type(6.1)), again Python will resolve most embedded parentheses
+# │                           first in this case it is type(6.1). Type of value 6.1 is float (floating point number)
+# └────────────────────────── last statement to solve is print(float) and output of an whole line will be "float"
+```
+
+[prev](lesson_000.md) | [index](index.md) | [next](lesson_002.md)
 
 
