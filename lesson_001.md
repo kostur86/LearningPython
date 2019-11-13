@@ -163,6 +163,6 @@ liens
 #### On print function
 
 
-[Index](lesson_001.md) | [next](lesson_002.md)
+prev | [index](index.md) | [next](lesson_002.md)
 
 
